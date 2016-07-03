@@ -1,0 +1,40 @@
+{
+    "author": "nlsupport@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "fvu-watchface",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "fvu watchface",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/georgian.ttf",
+                    "name": "FONT_GEORGIAN_BOLD_SUBSET_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/dosvga.ttf",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "650ed27f-0d02-451f-84af-cb9a6a4f8b7c",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
